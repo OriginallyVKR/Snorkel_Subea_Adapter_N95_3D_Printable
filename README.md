@@ -8,17 +8,17 @@ This repo consists of the CAD designs of the adapter to convert a Decathlon - SU
   
   We aimed at mitigating the shortage of respirators with do-it-yourself Respirator (ADR) with components found in most hospitals - using a CPAP inline filter (using the appropriate filter - N-95, HEPA etc).
  
- On research we discovered that there was a snorkelling mask (sold by Decathlon - <a href="https://www.decathlon.in/p/8573237/easybreath-full-face-mask/adult-snorkeling-mask-easybreath-500-blue">ADULT SNORKELING MASK EASYBREATH 500</a>  )</p> which were redaily available in most stores in our demographic (Bangalore, India), we then set out trying to design an adapter to connect the snorkelling mask to a CPAP inline filter. 
+ On research we discovered that there was a snorkelling mask (sold by Decathlon - <a href="https://www.decathlon.in/p/8573237/easybreath-full-face-mask/adult-snorkeling-mask-easybreath-500-blue">ADULT SNORKELING MASK EASYBREATH 500</a>  )</p> which were readily available in most stores in our demographic (Bangalore, India), we then set out trying to design an adapter to connect the snorkelling mask to a CPAP inline filter. 
  
  # Design description
  
- <p> We started out by exploring designs that were available in the open source domain and landed a couple of adapters. We were fortunate enough to be able to source a FDM based 3D printer. The designs we found required support structures to be printed and had an average print time of 12 hours (15% infill) - the real challenge was once the print was done - post processign was a nightmare as the structure was such that it didnt allow us to clean up support material from the inner cavities. 
+ <p> We started by exploring designs that were available in the open-source domain and landed a couple of adapters. We were fortunate enough to be able to source an FDM based 3D printer. The designs we found required support structures to be printed and had an average print time of 12 hours (15% infill) - the real challenge was once the print was done - post processing was a nightmare as the structure was such that it didnt allow us to clean up support material from the inner cavities. 
   
-  We tried mutliple orientations to reduce the support structures, but were in no luck - the design by default was only available as STL files and gave us little flexibility to modify the wall thickness. The reason we wanted to alter the wall thickness was to increase our production rate, we wanted to be able to churn out 30 units in 3 days and the design didnt allow us to do this. Additionally, the adapter wasnt to operate at high pressure, we werent looking at putting the adapter through any pressure higher than 14cmH2o (0.013bar or 1.199psi). 
+  We tried multiple orientations to reduce the support structures but were in no luck - the design by default was only available as STL files and gave us little flexibility to modify the wall thickness. The reason we wanted to alter the wall thickness was to increase our production rate, we wanted to be able to churn out 30 units in 3 days and the design didnt allow us to do this. Additionally, the adapter wasn't to operate at high pressure, we weren't looking at putting the adapter through any pressure higher than 14cmH2o (0.013bar or 1.199psi). 
   
   We soon realised that we had to start from scratch and brought in the  <a href="https://www.decathlon.in/p/8573237/easybreath-full-face-mask/adult-snorkeling-mask-easybreath-500-blue"> snorkelling</a> and the N95 CPAP filter, got the dimensions measured and designed the adapter. 
   
-  With the newer design we were able to print the adapter with no support (this was possible as we had redesiged the neck with lesser inclination, which allowed the printer to print subsequent layers with no underlying support as the layers werent steep enough to warrant underlying support)
+  With the newer design, we were able to print the adapter with no support (this was possible as we had redesigned the neck with lesser inclination, which allowed the printer to print subsequent layers with no underlying support as the layers weren't steep enough to warrant underlying support)
   
  PFB the drawings of the adapter and a preview of the adapter on the slicer. 
  
@@ -33,13 +33,13 @@ This repo consists of the CAD designs of the adapter to convert a Decathlon - SU
  * Speed : 100%
  * Supports : None
  * Z offset : None
- * Placement : layed flat with the wider mouth on the build plate (Refer image)
+ * Placement : placed flat with the wider mouth on the build plate (Refer image)
  
  Image from slicing software (we used Astro print <a href="https://cloud.astroprint.com/account/login"> Astroprint</a> as the slicer.
  
 ![Screenshot from 2021-01-05 21-08-51](https://user-images.githubusercontent.com/55281142/103667200-a44d8100-4f9b-11eb-8b00-af0bc61ae8fa.png)
  
- The print time was close to 4.5/5 hours at the above said configuration for a single unit, we then replicated this and generated a 5 unit configuration to print at scale. The results were as follows:
+ The print time was close to 4.5/5 hours at the above-said configuration for a single unit, we then replicated this and generated a 5 unit configuration to print at scale. The results were as follows:
  
  ![Final_part_monoaxial](https://user-images.githubusercontent.com/55281142/103777928-9b21ea00-5057-11eb-9788-bb4f7b356c0a.jpeg)
 
@@ -55,7 +55,7 @@ Images of doctors using it in on field:
 
 ![Field_use_monoaxial](https://user-images.githubusercontent.com/55281142/103778516-5c406400-5058-11eb-997b-d1c3266e7165.jpeg)
   
-# Lisences 
+# Licenses 
   
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Snorkel_Subea_Adapter_N95_3D_Printable</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Vishnu Ramakrishnan & Ateeb Hafeez</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/OriginallyVKR/Snorkel_Subea_Adapter_N95_3D_Printable" rel="dct:source">https://github.com/OriginallyVKR/Snorkel_Subea_Adapter_N95_3D_Printable</a>. 
 
