@@ -20,8 +20,9 @@ This repo consists of the CAD designs of the adapter to convert a Decathlon - SU
   
   With the newer design, we were able to print the adapter with no support (this was possible as we had redesigned the neck with lesser inclination, which allowed the printer to print subsequent layers with no underlying support as the layers weren't steep enough to warrant underlying support)
   
- PFB the drawings of the adapter and a preview of the adapter on the slicer. 
+ PFB the drawings of the adapter: 
  
+ ![Dimensions](https://user-images.githubusercontent.com/55281142/115472048-a12e8600-a256-11eb-914c-2178b368a412.PNG)
  
  # Printer settings
  
@@ -54,6 +55,7 @@ We then printed about 5 as described earlier :
 Images of doctors using it in on field:
 
 ![Field_use_monoaxial](https://user-images.githubusercontent.com/55281142/103778516-5c406400-5058-11eb-997b-d1c3266e7165.jpeg)
+
   
 # Licenses 
   
