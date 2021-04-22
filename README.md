@@ -24,6 +24,8 @@ This repo consists of the CAD designs of the adapter to convert a Decathlon - SU
  
  ![Dimensions](https://user-images.githubusercontent.com/55281142/115472048-a12e8600-a256-11eb-914c-2178b368a412.PNG)
  
+ If you intend to modify the part, download the step file with the ".stp" extension to do so. Please note that we do not gurantee the performance if you undertake modifications ot the design. Please do reach out to us incase of any further questions.
+ 
  # Printer settings
  
  We used an FDM based printer with the following settings:
